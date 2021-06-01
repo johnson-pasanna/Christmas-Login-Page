@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Candal&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(255, 15, 15);
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding-top: 150px;
+    padding-left: 220px;
+}
+
+.container{
+    background: rgb(255, 0, 0);
+    border-radius: 30px;
+    box-shadow: 15px 15px 5px rgb(250, 95, 95);
+    display: flex;
+    flex-direction:row-reverse;
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+    height: 50vh;
+    align-content: center;
+    vertical-align: center;
+    align-self: center;
+}
+
+h1 {
+    font-family: candal, verdana, helvetica;
+    margin: 0px;
+    font-size: 48px;
+    color: beige;
+    padding: 0 0 70px 0;
+}
+
+button {
+    border-radius: 20px;
+    border: 1px solid rgb(240, 240, 240);
+    background: rgb(240, 240, 240);
+    color:rgb(255, 0, 0);
+    font-weight: bold;
+    padding: 10px 25px;
+    width: 35%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    outline: none;
+    transition: transform 80ms ease-in;
+}
+
+button:active {
+    transform: scale(0.95)
+}
+
+input {
+    background-color: rgb(240, 240, 240);
+    border: none;
+    margin-bottom: 5px;
+    margin: 5px;
+    border-radius: 20px;
+    width: 100%;
+    font-size: 16px;
+    padding: 10px 25px;
+    padding-left: 40px;
+    outline: none;
+}
+
+.form-container {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.snowman {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;    
+}
+
+
+.input-with-icon1 a{
+    position: absolute;
+    padding: 14px 13px;
+    color: rgb(255, 0, 0);
+}
+
+.input-with-icon2 a{
+    position: absolute;
+    padding: 14px 15px;
+    color: rgb(255, 0, 0);
+}
+
+.link {
+    color:rgb(255, 255, 255);
+    font-size: 18px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
